@@ -1,0 +1,23 @@
+// Place all the styles related to the Tests controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+#example {
+
+  tr {
+    td {
+      input {
+        font-size: 20px;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        &.disabled {
+          pointer-events: none;
+          border: none;
+        }
+        &.button {
+          width: 120px;
+        }
+      }
+    }
+  }
+}
